@@ -63,3 +63,30 @@ const yearNode = document.querySelector("#year");
 if (yearNode) {
   yearNode.textContent = new Date().getFullYear();
 }
+
+// Treatment cards mobile toggle
+const treatmentToggles = document.querySelectorAll('[data-treatment-toggle]');
+
+treatmentToggles.forEach(toggle => {
+  toggle.addEventListener('click', () => {
+    const index = toggle.getAttribute('data-treatment-toggle');
+    const content = document.querySelector(`[data-treatment-content="${index}"]`);
+    const chevron = toggle.querySelector('[data-chevron]');
+    
+    if (content && chevron) {
+      const isHidden = content.classList.contains('hidden');
+      
+      // Toggle content
+      content.classList.toggle('hidden', !isHidden);
+      
+      // Rotate chevron
+      if (isHidden) {
+        chevron.classList.add('rotate-180', 'text-primary');
+        chevron.classList.remove('text-gray-400');
+      } else {
+        chevron.classList.remove('rotate-180', 'text-primary');
+        chevron.classList.add('text-gray-400');
+      }
+    }
+  });
+});

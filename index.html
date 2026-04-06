@@ -276,7 +276,7 @@
               </p>
 
               <div
-                class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-gray-100 mt-8 mb-24 lg:mb-0"
+                class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-gray-200 mt-8 mb-24 lg:mb-0"
               >
                 <div class="space-y-1 text-center md:text-left">
                   <div
@@ -748,6 +748,12 @@
               </div>
             </article>
           </div>
+
+          <div class="text-center mt-12">
+            <a href="tel:+919886828444" class="inline-block px-8 py-4 bg-primary text-white font-bold rounded-lg hover:bg-blue-700 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+              Talk to a Specialist Now
+            </a>
+          </div>
         </div>
       </section>
 
@@ -785,130 +791,265 @@
             </p>
           </div>
 
-          <div class="treatment-grid">
-            <article class="treatment-card">
-              <div class="treatment-meta">
-                <div>
-                  <h3>Ethanol Ablation</h3>
-                  <p class="treatment-subtitle">Alcohol Ablation</p>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 max-w-6xl mx-auto">
+            <article class="bg-white border border-gray-200 rounded-xl md:rounded-2xl p-4 md:p-8 hover:shadow-xl transition duration-300 relative overflow-hidden group flex flex-col" data-treatment-card="0">
+              <!-- Mobile Toggle Header -->
+              <button class="md:hidden w-full flex items-center justify-between focus:outline-none mb-2 bg-transparent border-0" data-treatment-toggle="0">
+                <div class="flex-1 text-left">
+                  <div class="flex justify-between items-center gap-2">
+                    <div class="flex-1">
+                      <h3 class="text-lg font-bold text-gray-900">Ethanol Ablation</h3>
+                      <p class="text-primary font-medium text-sm">Alcohol Ablation</p>
+                    </div>
+                    <span class="inline-flex items-center gap-1 bg-gray-100 px-2 py-0.5 rounded-full text-xs font-semibold text-gray-600 flex-shrink-0">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                      Best for cystic
+                    </span>
+                  </div>
                 </div>
-                <span class="time-pill">Best for cystic nodules</span>
+                <div class="ml-2 flex-shrink-0">
+                  <svg data-chevron class="w-5 h-5 text-gray-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                  </svg>
+                </div>
+              </button>
+
+              <!-- Desktop Header -->
+              <div class="hidden md:flex justify-between items-start mb-4">
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900">Ethanol Ablation</h3>
+                  <p class="text-primary font-medium">Alcohol Ablation</p>
+                </div>
+                <span class="inline-flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs font-semibold text-gray-600">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  Best for cystic nodules
+                </span>
               </div>
-              <p>
-                A small amount of medical alcohol is injected into the nodule,
-                causing it to shrink gradually.
-              </p>
-              <ul class="benefit-list">
-                <li>No surgery</li>
-                <li>No stitches</li>
-                <li>No hospital stay</li>
-                <li>Very quick procedure</li>
-                <li>Highly effective for cystic nodules</li>
-              </ul>
+
+              <!-- Desktop Content (Always visible) -->
+              <div class="hidden md:block">
+                <p class="text-gray-600 mb-6">A small amount of medical alcohol is injected into nodule, causing it to shrink gradually.</p>
+                <ul class="space-y-3 pt-6 border-t border-gray-50 pl-1">
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>No surgery</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>No stitches</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>No hospital stay</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Very quick procedure</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Highly effective for cystic nodules</li>
+                </ul>
+              </div>
+
+              <!-- Mobile Content (Collapsible) -->
+              <div class="md:hidden hidden" data-treatment-content="0">
+                <p class="text-gray-600 mb-2 text-sm">A small amount of medical alcohol is injected into nodule, causing it to shrink gradually.</p>
+                <ul class="space-y-2 pt-4 border-t border-gray-50 pl-1">
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>No surgery</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>No stitches</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>No hospital stay</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Very quick procedure</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Highly effective for cystic nodules</li>
+                </ul>
+              </div>
             </article>
 
-            <article class="treatment-card">
-              <div class="treatment-meta">
-                <div>
-                  <h3>Microwave Ablation</h3>
-                  <p class="treatment-subtitle">MWA</p>
+            <article class="bg-white border border-gray-200 rounded-xl md:rounded-2xl p-4 md:p-8 hover:shadow-xl transition duration-300 relative overflow-hidden group flex flex-col" data-treatment-card="1">
+              <!-- Mobile Toggle Header -->
+              <button class="md:hidden w-full flex items-center justify-between focus:outline-none mb-2 bg-transparent border-0" data-treatment-toggle="1">
+                <div class="flex-1 text-left">
+                  <div class="flex justify-between items-center gap-2">
+                    <div class="flex-1">
+                      <h3 class="text-lg font-bold text-gray-900">Microwave Ablation</h3>
+                      <p class="text-primary font-medium text-sm">MWA</p>
+                    </div>
+                    <span class="inline-flex items-center gap-1 bg-gray-100 px-2 py-0.5 rounded-full text-xs font-semibold text-gray-600 flex-shrink-0">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                      Best for solid
+                    </span>
+                  </div>
                 </div>
-                <span class="time-pill">Best for solid nodules</span>
+                <div class="ml-2 flex-shrink-0">
+                  <svg data-chevron class="w-5 h-5 text-gray-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                  </svg>
+                </div>
+              </button>
+
+              <!-- Desktop Header -->
+              <div class="hidden md:flex justify-between items-start mb-4">
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900">Microwave Ablation</h3>
+                  <p class="text-primary font-medium">MWA</p>
+                </div>
+                <span class="inline-flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs font-semibold text-gray-600">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  Best for solid nodules
+                </span>
               </div>
-              <p>
-                A thin needle delivers controlled microwave energy to safely
-                shrink the nodule.
-              </p>
-              <ul class="benefit-list">
-                <li>No surgical scar</li>
-                <li>High precision treatment</li>
-                <li>Preserves normal thyroid tissue</li>
-                <li>Quick recovery</li>
-                <li>Excellent cosmetic results</li>
-              </ul>
+
+              <!-- Desktop Content (Always visible) -->
+              <div class="hidden md:block">
+                <p class="text-gray-600 mb-6">A thin needle delivers controlled microwave energy to safely shrink nodule.</p>
+                <ul class="space-y-3 pt-6 border-t border-gray-50 pl-1">
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>No surgical scar</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>High precision treatment</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Preserves normal thyroid tissue</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Quick recovery</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Excellent cosmetic results</li>
+                </ul>
+              </div>
+
+              <!-- Mobile Content (Collapsible) -->
+              <div class="md:hidden hidden" data-treatment-content="1">
+                <p class="text-gray-600 mb-2 text-sm">A thin needle delivers controlled microwave energy to safely shrink nodule.</p>
+                <ul class="space-y-2 pt-4 border-t border-gray-50 pl-1">
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>No surgical scar</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>High precision treatment</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Preserves normal thyroid tissue</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Quick recovery</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Excellent cosmetic results</li>
+                </ul>
+              </div>
             </article>
 
-            <article class="treatment-card">
-              <div class="treatment-meta">
-                <div>
-                  <h3>Thyroid Artery Embolisation</h3>
-                  <p class="treatment-subtitle">Advanced option</p>
+            <article class="bg-white border border-gray-200 rounded-xl md:rounded-2xl p-4 md:p-8 hover:shadow-xl transition duration-300 relative overflow-hidden group flex flex-col" data-treatment-card="2">
+              <!-- Mobile Toggle Header -->
+              <button class="md:hidden w-full flex items-center justify-between focus:outline-none mb-2 bg-transparent border-0" data-treatment-toggle="2">
+                <div class="flex-1 text-left">
+                  <div class="flex justify-between items-center gap-2">
+                    <div class="flex-1">
+                      <h3 class="text-lg font-bold text-gray-900">Thyroid Artery Embolisation</h3>
+                      <p class="text-primary font-medium text-sm">Advanced option</p>
+                    </div>
+                    <span class="inline-flex items-center gap-1 bg-gray-100 px-2 py-0.5 rounded-full text-xs font-semibold text-gray-600 flex-shrink-0">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                      For larger
+                    </span>
+                  </div>
                 </div>
-                <span class="time-pill">For larger nodules</span>
+                <div class="ml-2 flex-shrink-0">
+                  <svg data-chevron class="w-5 h-5 text-gray-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                  </svg>
+                </div>
+              </button>
+
+              <!-- Desktop Header -->
+              <div class="hidden md:flex justify-between items-start mb-4">
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900">Thyroid Artery Embolisation</h3>
+                  <p class="text-primary font-medium">Advanced option</p>
+                </div>
+                <span class="inline-flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs font-semibold text-gray-600">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  For larger nodules
+                </span>
               </div>
-              <p>
-                The blood supply to the nodule is reduced, causing it to shrink
-                over time.
-              </p>
-              <ul class="benefit-list">
-                <li>Completely non surgical</li>
-                <li>Effective for large nodules</li>
-                <li>Reduces symptoms</li>
-                <li>Minimally invasive technique</li>
-              </ul>
+
+              <!-- Desktop Content (Always visible) -->
+              <div class="hidden md:block">
+                <p class="text-gray-600 mb-6">The blood supply to nodule is reduced, causing it to shrink over time.</p>
+                <ul class="space-y-3 pt-6 border-t border-gray-50 pl-1">
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Completely non surgical</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Effective for large nodules</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Reduces symptoms</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Minimally invasive technique</li>
+                </ul>
+              </div>
+
+              <!-- Mobile Content (Collapsible) -->
+              <div class="md:hidden hidden" data-treatment-content="2">
+                <p class="text-gray-600 mb-2 text-sm">The blood supply to nodule is reduced, causing it to shrink over time.</p>
+                <ul class="space-y-2 pt-4 border-t border-gray-50 pl-1">
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Completely non surgical</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Effective for large nodules</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Reduces symptoms</li>
+                  <li class="flex items-center gap-3 text-gray-700 text-sm"><div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 flex items-center justify-center text-green-600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>Minimally invasive technique</li>
+                </ul>
+              </div>
             </article>
           </div>
+
+          <div class="text-center mt-12">
+            <button class="px-8 py-4 bg-white text-primary border-2 border-primary font-bold rounded-lg hover:bg-blue-50 transition">
+              Which Treatment Is Right for Me?
+            </button>
+          </div>
+
+          <!-- CTA Bar after treatments -->
+          <div class="mt-20 bg-primary rounded-xl shadow-xl p-8 md:p-10 text-center">
+            <h3 class="text-2xl md:text-3xl font-serif font-bold text-white mb-6">Experience the Difference. Schedule Your Consultation</h3>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+              <a href="tel:+919886828444" class="px-8 py-3 bg-white text-primary font-bold rounded-lg hover:bg-gray-50 transition shadow-md inline-block">
+                Call: +91 98868 28444
+              </a>
+              <a href="https://wa.me/919886828444" target="_blank" rel="noopener noreferrer" class="px-8 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition shadow-inner border border-green-400 inline-block">
+                WhatsApp Us
+              </a>
+            </div>
+          </div>
         </div>
-
-
       </section>
 
       <section class="py-20 bg-white" aria-labelledby="doctor-heading">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div
-            class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start"
-          >
-            <div class="text-center lg:text-left">
-              <span
-                class="text-xs font-bold text-primary tracking-widest uppercase mb-2 block"
-                >Expert Thyroid Nodule Specialist</span
-              >
+          <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div class="text-center lg:text-left space-y-6">
+              <span class="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">
+                Expert Thyroid Nodule Specialist
+              </span>
               <h2
                 id="doctor-heading"
-                class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-6 leading-tight"
+                class="text-3xl md:text-4xl font-serif font-bold text-gray-900 leading-tight"
               >
                 Experienced hands. Precise treatment. Faster recovery.
               </h2>
-              <p
-                class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0"
-              >
+              <p class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                 Dr Rahul Deep G is a Consultant Interventional Radiologist and
                 founder of Radnex Interventional Science, with deep experience in
                 minimally invasive image guided thyroid interventions.
               </p>
             </div>
 
-            <div
-              class="rounded-xl border border-gray-200 bg-white shadow-sm p-8 lg:p-10"
-            >
-              <div class="divide-y divide-gray-200">
-                <article class="pb-8">
-                  <strong
-                    class="block text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight"
-                    >4,500+</strong
-                  >
-                  <span class="mt-1 block text-base text-gray-600"
-                    >thyroid nodules treated</span
-                  >
-                </article>
-                <article class="py-8">
-                  <strong
-                    class="block text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight"
-                    >International</strong
-                  >
-                  <span class="mt-1 block text-base text-gray-600"
-                    >Best Researcher Award</span
-                  >
-                </article>
-                <article class="pt-8">
-                  <strong
-                    class="block text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight"
-                    >Specialist</strong
-                  >
-                  <span class="mt-1 block text-base text-gray-600"
-                    >image guided thyroid interventions</span
-                  >
-                </article>
+            <div class="rounded-xl border border-gray-200 bg-white shadow-lg p-6 lg:p-8">
+              <div class="space-y-6">
+                <div class="flex items-start gap-4">
+                  <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong class="block text-2xl font-bold text-gray-900">4,500+</strong>
+                    <span class="text-gray-600">thyroid nodules treated</span>
+                  </div>
+                </div>
+                
+                <div class="border-t border-gray-200"></div>
+                
+                <div class="flex items-start gap-4">
+                  <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong class="block text-2xl font-bold text-gray-900">International</strong>
+                    <span class="text-gray-600">Best Researcher Award</span>
+                  </div>
+                </div>
+                
+                <div class="border-t border-gray-200"></div>
+                
+                <div class="flex items-start gap-4">
+                  <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong class="block text-2xl font-bold text-gray-900">Specialist</strong>
+                    <span class="text-gray-600">image guided thyroid interventions</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -920,12 +1061,12 @@
           <div class="text-center max-w-3xl mx-auto mb-16">
             <span
               class="text-xs font-bold text-primary tracking-widest uppercase mb-2 block"
-              >The Revolution</span
+              >YOUR TREATMENT JOURNEY</span
             >
             <h2
               class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4"
             >
-              Why Is Thyroid Nodule Treatment So Easy Now?
+              How Easy Is It? Your Complete Journey
             </h2>
             <p class="text-lg text-gray-600">
               Instead of removing the thyroid surgically, modern treatments
@@ -934,443 +1075,201 @@
             </p>
           </div>
 
-          <div
-            class="flex flex-col md:flex-row gap-8 max-w-5xl mx-auto items-start"
-          >
-            <div
-              class="w-full md:flex-1 bg-white rounded-xl border border-gray-200 p-8 opacity-70 hover:opacity-100 transition duration-300 flex flex-col"
-            >
-              <div
-                class="inline-block px-3 py-1 bg-gray-200 text-gray-600 text-xs font-bold rounded mb-6 uppercase tracking-wider w-fit"
-              >
-                The Old Way
-              </div>
-              <h3 class="text-2xl font-serif font-bold text-gray-900 mb-6">
-                Traditional Surgery
-              </h3>
-              <ul class="space-y-4 list-none m-0 p-0">
-                <li class="flex items-start gap-3 text-gray-500">
-                  <svg
-                    class="flex-shrink-0 text-red-400 mt-1"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    aria-hidden="true"
-                  >
-                    <path d="M18 6 6 18" />
-                    <path d="m6 6 12 12" />
-                  </svg>
-                  <span>General anesthesia</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-500">
-                  <svg
-                    class="flex-shrink-0 text-red-400 mt-1"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    aria-hidden="true"
-                  >
-                    <path d="M18 6 6 18" />
-                    <path d="m6 6 12 12" />
-                  </svg>
-                  <span>Neck incision and scar</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-500">
-                  <svg
-                    class="flex-shrink-0 text-red-400 mt-1"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    aria-hidden="true"
-                  >
-                    <path d="M18 6 6 18" />
-                    <path d="m6 6 12 12" />
-                  </svg>
-                  <span>Hospital stay</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-500">
-                  <svg
-                    class="flex-shrink-0 text-red-400 mt-1"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    aria-hidden="true"
-                  >
-                    <path d="M18 6 6 18" />
-                    <path d="m6 6 12 12" />
-                  </svg>
-                  <span>Longer recovery</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-500">
-                  <svg
-                    class="flex-shrink-0 text-red-400 mt-1"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    aria-hidden="true"
-                  >
-                    <path d="M18 6 6 18" />
-                    <path d="m6 6 12 12" />
-                  </svg>
-                  <span>Risk to thyroid function</span>
-                </li>
-              </ul>
-            </div>
+          <div class="max-w-4xl mx-auto relative">
+            <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-blue-100 md:left-1/2 md:-ml-px"></div>
 
-            <div
-              class="w-full md:flex-1 bg-white rounded-xl border-2 border-primary shadow-xl p-8 relative flex flex-col"
-            >
-              <div
-                class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-              >
-                <div
-                  class="inline-block px-4 py-1 bg-primary text-white text-xs font-bold rounded-full uppercase tracking-wider shadow-lg"
-                >
-                  The New Way
+            <div class="space-y-20 md:space-y-24">
+              <div class="relative flex flex-col md:flex-row md:flex-row-reverse">
+                <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 flex items-center justify-center w-16 h-16 rounded-full bg-white text-primary font-bold text-2xl z-10 shadow-sm" style="border: 4px solid #0066FF;">1</div>
+                <div class="hidden md:block w-1/2"></div>
+                <div class="pl-24 md:w-1/2 md:pl-12 md:pr-12">
+                  <div class="text-left md:text-right">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Consultation</h3>
+                    <p class="text-gray-600 mb-5 leading-relaxed">Meet with our specialist who will examine your thyroid, understand your symptoms, and explain your options.</p>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-700 text-xs font-bold rounded-full"><span>⏱</span> 15-20 minutes</span>
+                  </div>
                 </div>
               </div>
-              <h3
-                class="text-2xl font-serif font-bold text-gray-900 mb-6 mt-2"
-              >
-                Modern Non Surgical Treatment
-              </h3>
-              <ul class="space-y-4 list-none m-0 p-0">
-                <li class="flex items-start gap-3 text-gray-900 font-medium">
-                  <div
-                    class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-primary mt-0.5"
-                  >
-                    <svg
-                      width="14"
-                      height="14"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      aria-hidden="true"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
+
+              <div class="relative flex flex-col md:flex-row">
+                <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 flex items-center justify-center w-16 h-16 rounded-full bg-white text-primary font-bold text-2xl z-10 shadow-sm" style="border: 4px solid #0066FF;">2</div>
+                <div class="hidden md:block w-1/2"></div>
+                <div class="pl-24 md:w-1/2 md:pl-12 md:pr-12">
+                  <div class="text-left">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Diagnostic Ultrasound</h3>
+                    <p class="text-gray-600 mb-5 leading-relaxed">Color Doppler ultrasound maps your thyroid structure and identifies problem areas for precise treatment planning.</p>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-700 text-xs font-bold rounded-full"><span>⏱</span> 20-30 minutes</span>
                   </div>
-                  <span>Local anesthesia only</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-900 font-medium">
-                  <div
-                    class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-primary mt-0.5"
-                  >
-                    <svg
-                      width="14"
-                      height="14"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      aria-hidden="true"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
+                </div>
+              </div>
+
+              <div class="relative flex flex-col md:flex-row md:flex-row-reverse">
+                <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 flex items-center justify-center w-16 h-16 rounded-full bg-white text-primary font-bold text-2xl z-10 shadow-sm" style="border: 4px solid #0066FF;">3</div>
+                <div class="hidden md:block w-1/2"></div>
+                <div class="pl-24 md:w-1/2 md:pl-12 md:pr-12">
+                  <div class="text-left md:text-right">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Treatment Day</h3>
+                    <p class="text-gray-600 mb-5 leading-relaxed">Simple procedure with local anesthesia, ultrasound guidance, and brief recovery. Go home the same day.</p>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-700 text-xs font-bold rounded-full"><span>⏱</span> 30-45 minutes procedure</span>
                   </div>
-                  <span>Needle based procedure</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-900 font-medium">
-                  <div
-                    class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-primary mt-0.5"
-                  >
-                    <svg
-                      width="14"
-                      height="14"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      aria-hidden="true"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
+                </div>
+              </div>
+
+              <div class="relative flex flex-col md:flex-row">
+                <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 flex items-center justify-center w-16 h-16 rounded-full bg-white text-primary font-bold text-2xl z-10 shadow-sm" style="border: 4px solid #0066FF;">4</div>
+                <div class="hidden md:block w-1/2"></div>
+                <div class="pl-24 md:w-1/2 md:pl-12 md:pr-12">
+                  <div class="text-left">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Fast Recovery</h3>
+                    <p class="text-gray-600 mb-5 leading-relaxed">Walk immediately. Return to normal activities in 1-2 days. Symptoms improve dramatically within days.</p>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-700 text-xs font-bold rounded-full"><span>⏱</span> 1-2 days to normal life</span>
                   </div>
-                  <span>Same day discharge</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-900 font-medium">
-                  <div
-                    class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-primary mt-0.5"
-                  >
-                    <svg
-                      width="14"
-                      height="14"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      aria-hidden="true"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                  </div>
-                  <span>1 to 2 day recovery</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-900 font-medium">
-                  <div
-                    class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-primary mt-0.5"
-                  >
-                    <svg
-                      width="14"
-                      height="14"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      aria-hidden="true"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                  </div>
-                  <span>No visible scars</span>
-                </li>
-                <li class="flex items-start gap-3 text-gray-900 font-medium">
-                  <div
-                    class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-primary mt-0.5"
-                  >
-                    <svg
-                      width="14"
-                      height="14"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      aria-hidden="true"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                  </div>
-                  <span>Preserves thyroid function</span>
-                </li>
-              </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center mt-16 relative z-20">
+              <a href="tel:+919886828444" class="px-10 py-4 bg-primary text-white font-bold rounded-lg hover:bg-blue-700 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-lg">Get your expert Consultation</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section" id="journey">
-        <div class="container">
-          <div class="section-heading centered">
-            <span class="section-kicker">Your Treatment Journey</span>
-            <h2>How Easy Is It? Your Complete Journey</h2>
-            <p>
-              From your first consultation to full recovery, the entire process
-              is designed for simplicity and comfort.
-            </p>
+      <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">Why Choose Radnex</span>
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
+              Why Choose Radnex Interventional Science
+            </h2>
           </div>
 
-          <div class="journey-timeline">
-            <article class="journey-step left">
-              <div class="step-copy">
-                <h3>Consultation</h3>
-                <p>
-                  Meet the specialist, understand your symptoms, and discuss
-                  your options.
-                </p>
-                <span class="step-time">15 to 20 minutes</span>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition duration-300">
+              <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
               </div>
-              <div class="step-dot">1</div>
-            </article>
+              <h3 class="text-lg font-bold text-gray-900 mb-2">Advanced Technology</h3>
+              <p class="text-gray-600">Image guided minimally invasive treatments with latest techniques</p>
+            </div>
 
-            <article class="journey-step right">
-              <div class="step-dot">2</div>
-              <div class="step-copy">
-                <h3>Diagnostic Ultrasound</h3>
-                <p>
-                  Precise imaging to evaluate the nodule and plan treatment.
-                </p>
-                <span class="step-time">20 to 30 minutes</span>
+            <div class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition duration-300">
+              <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                </svg>
               </div>
-            </article>
+              <h3 class="text-lg font-bold text-gray-900 mb-2">Expert Specialist</h3>
+              <p class="text-gray-600">Performed by experienced interventional radiologist</p>
+            </div>
 
-            <article class="journey-step left">
-              <div class="step-copy">
-                <h3>Treatment Day</h3>
-                <p>
-                  Minimally invasive procedure under ultrasound guidance.
-                </p>
-                <span class="step-time">30 to 45 minutes</span>
+            <div class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition duration-300">
+              <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                </svg>
               </div>
-              <div class="step-dot">3</div>
-            </article>
+              <h3 class="text-lg font-bold text-gray-900 mb-2">Scarless Procedures</h3>
+              <p class="text-gray-600">Focus on minimally invasive techniques with no visible scars</p>
+            </div>
 
-            <article class="journey-step right">
-              <div class="step-dot">4</div>
-              <div class="step-copy">
-                <h3>Fast Recovery</h3>
-                <p>
-                  Walk out the same day and return to normal activities quickly.
-                </p>
-                <span class="step-time">1 to 2 days to normal life</span>
+            <div class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition duration-300">
+              <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
               </div>
-            </article>
-          </div>
+              <h3 class="text-lg font-bold text-gray-900 mb-2">High Precision</h3>
+              <p class="text-gray-600">Accurate targeting with ultrasound guidance for best outcomes</p>
+            </div>
 
-          <div class="section-button-row">
-            <a class="button button-primary" href="#contact"
-              >Get Your Expert Consultation</a
-            >
+            <div class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition duration-300 md:col-span-2 lg:col-span-2">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">Quick Recovery</h3>
+                  <p class="text-gray-600">Same day discharge with faster return to normal activities</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      </section>
-
-      <section class="section">
-        <div class="container content-grid">
-          <article class="content-box">
-            <span class="section-kicker">Why Choose Non Surgical Treatment</span>
-            <ul class="benefit-list">
-              <li>No neck scar</li>
-              <li>No stitches</li>
-              <li>No general anesthesia</li>
-              <li>Same day discharge</li>
-              <li>Faster recovery</li>
-              <li>Preserves thyroid function</li>
-            </ul>
-          </article>
-
-          <article class="content-box">
-            <span class="section-kicker">Are Thyroid Nodules Affecting You?</span>
-            <ul class="benefit-list">
-              <li>Neck swelling or lump</li>
-              <li>Visible thyroid enlargement</li>
-              <li>Difficulty swallowing</li>
-              <li>Pressure in the neck</li>
-              <li>Cosmetic concerns</li>
-            </ul>
-          </article>
-
-          <article class="content-box">
-            <span class="section-kicker">Who Should Consider These Treatments</span>
-            <ul class="benefit-list">
-              <li>Benign thyroid nodules</li>
-              <li>Cystic thyroid nodules</li>
-              <li>Solid nodules causing symptoms</li>
-              <li>Visible neck swelling</li>
-              <li>Patients who want to avoid surgery</li>
-            </ul>
-          </article>
-
-          <article class="content-box">
-            <span class="section-kicker">Consultation and Evaluation</span>
-            <ul class="benefit-list">
-              <li>Thyroid ultrasound</li>
-              <li>Thyroid function tests</li>
-              <li>FNAC if required</li>
-            </ul>
-            <p class="content-footnote">
-              Based on your reports, a personalized treatment plan will be
-              created.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section-soft">
-        <div class="container">
-          <div class="section-heading centered narrow">
-            <span class="section-kicker">Why Choose Radnex</span>
-            <h2>Why Choose Radnex Interventional Science</h2>
+      <section class="py-20 bg-white" id="faq">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="text-xs font-bold text-primary tracking-widest uppercase mb-2 block">Your Questions Answered</span>
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
+              Everything You Need to Know
+            </h2>
           </div>
 
-          <div class="feature-grid">
-            <article class="feature-card">
-              Advanced image guided minimally invasive treatments
-            </article>
-            <article class="feature-card">
-              Performed by an experienced interventional radiologist
-            </article>
-            <article class="feature-card">
-              Latest technology and techniques
-            </article>
-            <article class="feature-card">Focus on scarless procedures</article>
-            <article class="feature-card">
-              High precision and strong outcomes
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="faq">
-        <div class="container">
-          <div class="section-heading centered narrow">
-            <span class="section-kicker">Your Questions Answered</span>
-            <h2>Everything You Need to Know</h2>
-          </div>
-
-          <div class="faq-list">
-            <details open>
-              <summary>Is non surgical thyroid nodule treatment safe?</summary>
-              <p>
+          <div class="max-w-3xl mx-auto space-y-4">
+            <details class="bg-white rounded-lg border border-gray-200 shadow-sm overflow-hidden" open>
+              <summary class="flex items-center justify-between p-6 text-left cursor-pointer list-none font-bold text-gray-900 text-lg hover:bg-gray-50 transition">
+                <span>Is non surgical thyroid nodule treatment safe?</span>
+                <svg class="w-5 h-5 text-primary flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </summary>
+              <p class="px-6 pb-6 text-gray-600 leading-relaxed">
                 Yes. When performed by an experienced interventional radiologist
                 under ultrasound guidance, these procedures are designed to be
                 precise and safe.
               </p>
             </details>
-            <details>
-              <summary>Will I need hospital admission?</summary>
-              <p>
+            <details class="bg-white rounded-lg border border-gray-200 shadow-sm overflow-hidden">
+              <summary class="flex items-center justify-between p-6 text-left cursor-pointer list-none font-bold text-gray-900 text-lg hover:bg-gray-50 transition">
+                <span>Will I need hospital admission?</span>
+                <svg class="w-5 h-5 text-gray-400 flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                </svg>
+              </summary>
+              <p class="px-6 pb-6 text-gray-600 leading-relaxed">
                 Most patients are discharged the same day, without a prolonged
                 hospital stay.
               </p>
             </details>
-            <details>
-              <summary>How soon can I return to normal activities?</summary>
-              <p>
+            <details class="bg-white rounded-lg border border-gray-200 shadow-sm overflow-hidden">
+              <summary class="flex items-center justify-between p-6 text-left cursor-pointer list-none font-bold text-gray-900 text-lg hover:bg-gray-50 transition">
+                <span>How soon can I return to normal activities?</span>
+                <svg class="w-5 h-5 text-gray-400 flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                </svg>
+              </summary>
+              <p class="px-6 pb-6 text-gray-600 leading-relaxed">
                 Recovery is usually quick, and many patients return to routine
                 activities within 1 to 2 days.
               </p>
             </details>
-            <details>
-              <summary>Which treatment option is right for me?</summary>
-              <p>
+            <details class="bg-white rounded-lg border border-gray-200 shadow-sm overflow-hidden">
+              <summary class="flex items-center justify-between p-6 text-left cursor-pointer list-none font-bold text-gray-900 text-lg hover:bg-gray-50 transition">
+                <span>Which treatment option is right for me?</span>
+                <svg class="w-5 h-5 text-gray-400 flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                </svg>
+              </summary>
+              <p class="px-6 pb-6 text-gray-600 leading-relaxed">
                 The best option depends on whether your nodule is cystic, solid,
                 large, or causing symptoms. Your doctor will guide you after
                 evaluation.
               </p>
             </details>
-            <details>
-              <summary>Will my thyroid function be preserved?</summary>
-              <p>
+            <details class="bg-white rounded-lg border border-gray-200 shadow-sm overflow-hidden">
+              <summary class="flex items-center justify-between p-6 text-left cursor-pointer list-none font-bold text-gray-900 text-lg hover:bg-gray-50 transition">
+                <span>Will my thyroid function be preserved?</span>
+                <svg class="w-5 h-5 text-gray-400 flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                </svg>
+              </summary>
+              <p class="px-6 pb-6 text-gray-600 leading-relaxed">
                 One of the major advantages of these treatments is that they aim
                 to preserve healthy thyroid tissue and function.
               </p>
@@ -1379,45 +1278,39 @@
         </div>
       </section>
 
-      <section class="final-cta-section" id="contact">
-        <div class="container">
-          <div class="final-cta-panel">
-            <h2>Ready to Treat Your Thyroid Nodule Without Surgery</h2>
-            <p>
-              Early evaluation leads to better outcomes and peace of mind.
-              Consult Dr Rahul Deep G today.
+      <section class="py-20 bg-gradient-to-br from-blue-600 to-blue-800" id="contact">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 class="text-3xl md:text-5xl font-serif font-bold text-white mb-6">
+            Ready to Treat Your Thyroid Nodule Without Surgery
+          </h2>
+          <p class="text-xl text-blue-100 mb-4 max-w-2xl mx-auto">
+            Early evaluation leads to better outcomes and peace of mind.
+            Consult Dr Rahul Deep G today.
+          </p>
+          <p class="text-blue-200 mb-10 max-w-2xl mx-auto italic">
+            Call or WhatsApp to schedule your appointment.
+          </p>
+
+          <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+            <a href="tel:+919886828444" class="px-8 py-4 bg-white text-primary font-bold rounded-lg hover:bg-gray-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+              Call Now
+            </a>
+            <a href="https://wa.me/919886828444" target="_blank" rel="noreferrer" class="px-8 py-4 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+              WhatsApp Now
+            </a>
+            <a href="#top" class="px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white/10 transition">
+              Book Your Consultation Now
+            </a>
+          </div>
+
+          <div class="border-t border-white/20 pt-8">
+            <p class="text-sm text-blue-200">
+              © 2025 Radnex Interventional Science. All rights reserved.
             </p>
-            <p class="final-note">
-              Call or WhatsApp to schedule your appointment.
-            </p>
-            <div class="final-cta-actions">
-              <a class="button button-light" href="tel:+919886828444"
-                >Call Now</a
-              >
-              <a
-                class="button button-green"
-                href="https://wa.me/919886828444"
-                target="_blank"
-                rel="noreferrer"
-                >WhatsApp Now</a
-              >
-              <a class="button button-outline-light" href="#top"
-                >Book Your Consultation Now</a
-              >
-            </div>
           </div>
         </div>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <div class="container">
-        <p>
-          &copy; <span id="year">2026</span> Radnex Interventional Science. All
-          rights reserved.
-        </p>
-      </div>
-    </footer>
 
     <script src="./script.js"></script>
   </body>

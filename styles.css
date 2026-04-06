@@ -5,14 +5,14 @@
   --text: #192235;
   --muted: #5e697f;
   --line: #e7edf6;
-  --blue: #0f63ff;
-  --blue-deep: #1b46d2;
+  --blue: #0066FF;
+  --blue-deep: #0052CC;
   --green: #27c65e;
   --green-deep: #19af4d;
   --shadow: 0 20px 50px rgba(26, 57, 116, 0.1);
-  --radius-xl: 28px;
-  --radius-lg: 22px;
-  --radius-md: 16px;
+  --radius-xl: 20px;
+  --radius-lg: 16px;
+  --radius-md: 12px;
   --max-width: 1240px;
 }
 
@@ -85,7 +85,7 @@ a {
   min-height: 54px;
   padding: 0 24px;
   border: 1px solid transparent;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   font-weight: 800;
   transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease,
     color 180ms ease, border-color 180ms ease;
@@ -101,8 +101,14 @@ a {
 .nav-cta,
 .button-primary {
   color: #fff;
-  background: linear-gradient(135deg, var(--blue) 0%, var(--blue-deep) 100%);
-  box-shadow: 0 14px 28px rgba(15, 99, 255, 0.18);
+  background: var(--blue);
+  box-shadow: 0 14px 28px rgba(0, 102, 255, 0.18);
+}
+
+.nav-cta:hover,
+.button-primary:hover {
+  background: #0052CC;
+  box-shadow: 0 14px 28px rgba(0, 102, 255, 0.25);
 }
 
 .button-secondary {
@@ -155,9 +161,9 @@ a {
 .feature-card,
 .faq-list details {
   border: 1px solid var(--line);
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-lg);
   background: rgba(255, 255, 255, 0.96);
-  box-shadow: var(--shadow);
+  box-shadow: 0 10px 25px rgba(0, 102, 255, 0.1);
 }
 
 .clinic-scene {
@@ -468,39 +474,7 @@ a {
   margin-top: 20px;
 }
 
-.treatment-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 26px;
-  margin-top: 44px;
-}
-
-.treatment-card {
-  padding: 30px;
-}
-
-.treatment-meta {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-.treatment-card h3 {
-  font-size: 1.8rem;
-}
-
-.treatment-subtitle {
-  margin: 8px 0 0;
-  color: var(--blue);
-  font-weight: 700;
-}
-
-.time-pill {
-  color: #6a7489;
-  background: #f0f4f8;
-  font-size: 0.9rem;
-  text-align: center;
-}
+/* Journey section now uses Tailwind classes - keeping only essential overrides */
 
 .content-grid {
   display: grid;
@@ -582,13 +556,11 @@ a {
 
 .final-cta-panel {
   padding: 58px 42px;
-  border-radius: 28px;
+  border-radius: 22px;
   text-align: center;
   color: #fff;
-  background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.18), transparent 24%),
-    linear-gradient(135deg, var(--blue) 0%, var(--blue-deep) 100%);
-  box-shadow: 0 26px 56px rgba(15, 99, 255, 0.24);
+  background: var(--blue);
+  box-shadow: 0 20px 40px rgba(0, 102, 255, 0.15);
 }
 
 .final-cta-panel h2 {
@@ -616,7 +588,6 @@ a {
 }
 
 @media (max-width: 1180px) {
-  .treatment-grid,
   .content-grid,
   .feature-grid {
     grid-template-columns: 1fr;
@@ -678,7 +649,7 @@ a {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .container {
     width: min(calc(100% - 20px), var(--max-width));
   }
