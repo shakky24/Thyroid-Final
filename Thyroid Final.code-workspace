@@ -5,7 +5,12 @@
 		},
 		{
 			"path": "../../rahuls-website-main"
+		},
+		{
+			"path": "../Downloads/Rahul Website 2"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Thyroid-Final"
+	}
 }
