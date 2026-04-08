@@ -8,9 +8,15 @@
 		},
 		{
 			"path": "../Downloads/Rahul Website 2"
+		},
+		{
+			"path": "../Main-Radnex-Site"
+		},
+		{
+			"path": "../Uterine-Staging"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Thyroid-Final"
+		"liveServer.settings.multiRootWorkspaceName": "Uterine-Staging"
 	}
 }
