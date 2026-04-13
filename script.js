@@ -75,6 +75,7 @@ treatmentToggles.forEach(toggle => {
     
     if (content && chevron) {
       const isHidden = content.classList.contains('hidden');
+      const label = toggle.querySelector('[data-toggle-label]');
       
       // Toggle content
       content.classList.toggle('hidden', !isHidden);
@@ -83,9 +84,11 @@ treatmentToggles.forEach(toggle => {
       if (isHidden) {
         chevron.classList.add('rotate-180', 'text-primary');
         chevron.classList.remove('text-gray-400');
+        if (label) label.textContent = 'Read less';
       } else {
         chevron.classList.remove('rotate-180', 'text-primary');
         chevron.classList.add('text-gray-400');
+        if (label) label.textContent = 'Read more';
       }
     }
   });
