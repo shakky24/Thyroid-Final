@@ -826,3 +826,8 @@ a {
     padding: 84px 0 54px;
   }
 }
+
+/* Why Choose cards - remove top margin on headings */
+.why-choose-card h3 {
+  margin-top: 0 !important;
+}
